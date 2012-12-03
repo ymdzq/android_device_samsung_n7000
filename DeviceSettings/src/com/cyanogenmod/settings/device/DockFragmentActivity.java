@@ -59,7 +59,6 @@ public class DockFragmentActivity extends PreferenceFragment {
             i.putExtra("data", boxValue);
             ActivityManagerNative.broadcastStickyIntent(i, null, UserHandle.USER_ALL);
         }
-
         return true;
     }
 
@@ -71,5 +70,4 @@ public class DockFragmentActivity extends PreferenceFragment {
         ActivityManagerNative.broadcastStickyIntent(i, null, UserHandle.USER_ALL);
 
     }
-
 }
